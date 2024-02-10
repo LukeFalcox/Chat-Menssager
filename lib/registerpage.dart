@@ -29,7 +29,7 @@ class _RegisterPageState extends State<RegisterPage> {
     final authService = Provider.of<AuthService>(context, listen: false);
 
     try {
-      await authService.signInWithEmailandPassword(
+      await authService.signUpWithEmailandPassword(
           emailController.text, passwordController.text);
     } catch (e) {
       ScaffoldMessenger.of(context)
@@ -99,7 +99,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   height: 25,
                 ),
                 // sign in button
-                MyButton(onTap: singUp(), text: "Sign Up"),
+                MyButton(onTap: singUp, text: "Sign Up"),
 
                 const SizedBox(
                   height: 50,
