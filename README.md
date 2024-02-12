@@ -1,6 +1,6 @@
 # chat_menssager
 
-A new Flutter project.
+Programa feito em flutter, o programa é um chat de menssagens para o emu us em projetos futuros e meu tcc
 
 ## Getting Started
 
