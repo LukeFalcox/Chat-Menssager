@@ -1,6 +1,7 @@
-import 'package:chat_menssager/auth_gate.dart';
-import 'package:chat_menssager/auth_service.dart';
-import 'package:chat_menssager/firebase_options.dart';
+
+import 'package:chat_menssager/auth/auth_gate.dart';
+import 'package:chat_menssager/auth/auth_service.dart';
+import 'package:chat_menssager/auth/firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

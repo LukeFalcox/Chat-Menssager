@@ -1,6 +1,6 @@
-import 'package:chat_menssager/auth_service.dart';
-import 'package:chat_menssager/myButton.dart';
-import 'package:chat_menssager/textfield.dart';
+import 'package:chat_menssager/auth/auth_service.dart';
+import 'package:chat_menssager/widgets/myButton.dart';
+import 'package:chat_menssager/widgets/textfield.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:provider/provider.dart';
